@@ -1,5 +1,5 @@
 const fs = require('fs');
-fs.readFile('dag3/input.txt', (err, textFile) => {
+fs.readFile('js/dag3/input.txt', (err, textFile) => {
   if (err) throw err;
   let lines = textFile.toString().split('\n');
   let total = 0;
